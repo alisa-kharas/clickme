@@ -104,4 +104,23 @@
        
     }
 
+    .bubble img {
+        width: 345px;
+        height: 173px;
+    }
+
+    .hello {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+
+    .btn {
+        width: 190px;
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .it {
+        width: 300px;
+    }
 }

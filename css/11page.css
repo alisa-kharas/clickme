@@ -79,3 +79,20 @@
     position: relative;
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .bubble img {
+        width: 345px;
+        height: 228px;
+    }
+
+    .hello {
+        margin-top: 40px;
+    }
+
+    .btn {
+        width: 190px;
+        font-size: 19px;
+        line-height: 21px;
+    }
+}
