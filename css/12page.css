@@ -109,42 +109,45 @@
 .first {
     position: absolute;
     margin-top: 245px;
-    left: 5px;
+    left: 19px;
 }
 
 .second {
     position: absolute;
     margin-top: 245px;
-    right: -24px;
+    left: 210px;
+    width: 0%;
 }
 
 .third {
     position: absolute;
     margin-top: 800px;
-    left: 5px;
+    left: 19px;
 }
 
 .fourth {
     position: absolute;
     margin-top: 663px;
-    right: 6px;
+    left: 209px;
 }
 
 .btn {
-    width: 190px;
+    width: 175px;
     font-size: 19px;
     line-height: 21px;
 }
 
 .new {
-    width: 190px;
+    width: 175px;
     font-size: 19px;
     margin-bottom: 30px;
+    border-radius: 17px;
 }
 
 .white {
-    width: 190px;
+    width: 175px;
     font-size: 19px;
+    border-radius: 17px;
 }
 
 

@@ -125,15 +125,19 @@
 
 @media only screen and (max-width: 1000px) {
     .box {
-        width: 457px;
+        width: 353px;
         flex-direction: column;
         height: 10000px;
-        margin-top: 310px;
+        margin-top: 386px;
     }
 
     .text {
-        width: 357px;
+        width: 300px;
         height: 403px;
+        margin-left: 27px;
+        font-size: 19px;
+        line-height: 21px;
+        margin-top: -5px;
     }
 
     .imagery {
@@ -144,6 +148,7 @@
         width: 356px;
         height: 269px;
         margin-bottom: 11px;
+       
     }
 
     .row2 img {
@@ -160,9 +165,14 @@
         
     }
 
+    .row1 {
+        margin-left: 27px;
+    }
+
     .row2 {
         margin-top: 0px;
         margin-left: 48px;
+        margin-left: 27px;
     
     }
 
@@ -170,12 +180,14 @@
         position: absolute;
         margin-left: 233px;
         margin-top: 351px;
+        margin-left: 27px;
     
     }
     
     .cross {
         margin-left: 395px;
         margin-top: 14px;
+        margin-left: 295px;
     }
     
 
