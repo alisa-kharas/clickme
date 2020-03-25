@@ -43,5 +43,7 @@
 @media only screen and (max-width: 1000px) {
     .btn {
         width: 190px;
+        font-size: 22px;
+        line-height: 24px;
     }
 }
