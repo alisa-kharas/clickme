@@ -80,7 +80,11 @@ button:active {
 .fourth {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+}
+
+.double {
+    display: flex;
+    flex-direction: column;
 }
 
 .imagery{
@@ -2041,60 +2045,73 @@ height: 132px;
 }
 
 @media only screen and (max-width: 1000px) {
-.names {
-    margin-left: 16px;
-    margin-right: 16px;
-    flex-direction: unset;
-    margin-bottom: 20px;
-}
-.first {
-    position: absolute;
-    margin-top: 245px;
-    left: 19px;
+
+.speech-bubble {
+    width: 260px;
+    font-size: 15px;
+    line-height: 18px;
+    height: 158px;
+
 }
 
-.second {
-    position: absolute;
-    margin-top: 245px;
-    left: 210px;
-    width: 0%;
+.container {
+    width: 80%;
 }
 
-.third {
-    position: absolute;
-    margin-top: 800px;
-    left: 19px;
-}
 
-.fourth {
-    position: absolute;
-    margin-top: 663px;
-    left: 209px;
-}
 
 .btn {
     width: 175px;
-    font-size: 19px;
-    line-height: 21px;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .new {
     width: 175px;
-    font-size: 19px;
+    font-size: 13px;
+    line-height: 15px;
     margin-bottom: 30px;
-    border-radius: 17px;
 }
 
 .white {
     width: 175px;
-    font-size: 19px;
-    border-radius: 17px;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 
 .picture img {
     width: 345px;
     height: 173px;
+}
+
+.speech-bubble2 {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.speech-bubble3 {
+    font-size: 15px;
+    line-height: 18px;
+    height: unset;
+}
+
+.speech-bubble4 {
+    font-size: 15px;
+    line-height: 18px;
+    height: unset;
+}
+
+.speech-bubble5 {
+    font-size: 15px;
+    line-height: 18px;
+    height: unset;
+}
+
+.speech-bubble6 {
+    font-size: 15px;
+    line-height: 18px;
+    height: unset;
 }
 
 }

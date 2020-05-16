@@ -138,19 +138,31 @@ margin-top: 23px;
   }
 
 @media only screen and (max-width: 1000px) {
+    .container {
+        position: fixed;
+    }
+
     .bubble img {
         width: 345px;
         height: 173px;
     }
 
-    .hello {
+    /*.hello {
         margin-top: 40px;
-    }
+    }*/
 
     .btn {
         width: 190px;
         font-size: 22px;
         line-height: 24px;
+    }
+
+    .speech-bubble {
+        position: relative;
+        width: 260px;
+        font-size: 13px;
+    line-height: 15px;
+    top: 0px;
     }
 }
 

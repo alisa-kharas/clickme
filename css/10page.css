@@ -160,11 +160,23 @@ margin-top: 23px;
 }
 
 @media only screen and (max-width: 1000px) {
+    .container {
+        position: fixed;
+    }
+
     .knopki {
         flex-direction: column;
         justify-content: center;
         align-items: center;
        
+    }
+
+    .speech-bubble {
+        width: 260px;
+        font-size: 13px;
+    line-height: 15px;
+    position: relative;
+    top: 0px;
     }
 
     .bubble img {
@@ -173,7 +185,8 @@ margin-top: 23px;
     }
 
     .hello {
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        margin-bottom: 20px;
         margin-right: 0px;
     }
 
@@ -185,6 +198,10 @@ margin-top: 23px;
 
     .it {
         width: 300px;
+    }
+
+    .second {
+        margin-right: 0px;
     }
 }
 
