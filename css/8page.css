@@ -89,8 +89,53 @@ button:active {
 
 .hello {
     position: relative;
-    margin-top: 20px;
+    top: 70px;
 }
+
+.speech-bubble img {
+    width: 103px;
+    height: 127px;
+margin-top: 17px;
+}
+
+.speech-bubble {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 255, 0.98);
+    border-radius: 33px;
+    font-size: 20px;
+    line-height: 24px;
+    /* margin: 0 auto 20px; */
+    top: 213px;
+    /* max-width: 400px; */
+    width: 23%;
+    height: 170px;
+    padding: 15px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    padding: 17px;
+    padding-left: 35px;
+    padding-top: 23px;
+    /* margin-left: 40px; */
+    color: white;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: rgba(0, 0, 255, 0.98);
+    border-left: 0;
+    border-top: 0;
+    margin-top: -88px;
+    margin-left: -16px;
+  }
 
 
 @media only screen and (max-width: 1000px) {
@@ -110,6 +155,3 @@ button:active {
     }
 }
 
-background-color: #FFFF00;
-border: 6px solid #FFFF00;
-box-shadow: 7px 9px 12px rgba(0, 0, 255, 0.2);
