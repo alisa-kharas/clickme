@@ -2100,7 +2100,10 @@ height: 132px;
     font-size: 15px;
     line-height: 18px;
     height: unset;
+    flex-direction: column;
 }
+
+
 
 .speech-bubble5 {
     font-size: 15px;
