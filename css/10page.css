@@ -120,7 +120,7 @@ margin-top: 23px;
     width: 23%;
     height: 152px;
     padding: 15px;
-    position: absolute;
+    position: relative;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -172,7 +172,7 @@ margin-top: 23px;
     }
 
     .speech-bubble {
-        width: 260px;
+        width: 70%;
         font-size: 15px;
         line-height: 18px;
     position: relative;
