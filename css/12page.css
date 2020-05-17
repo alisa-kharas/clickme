@@ -1755,6 +1755,10 @@ height: 315px;
 
 
 @media only screen and (max-width: 1000px) {
+.names {
+    margin-left: 5%;
+}
+
 .container {
     width: 90%;
 }
@@ -2018,7 +2022,13 @@ height: 315px;
 }
 
 .first {
+    margin-left: 3%;
+    margin-right: unset;
+}
+
+.double {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 }
