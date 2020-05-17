@@ -33,7 +33,7 @@
     flex-direction: column;
     width: 30%;
     margin-left: 6%;
-    margin-right: 4%;
+    margin-right: 7%;
     position: relative;
 }
 
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-right: 4%;
+    margin-right: 7%;
     position: relative;
 }
 
@@ -93,7 +93,10 @@
 
 button:active {
     box-shadow: 0 0 0 white;
-    margin: 6px 20px 2px 20px;
+    margin-top: 26px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: 20px;
 }
 
 .white {
@@ -111,7 +114,7 @@ button:active {
 .overlay {
     position: absolute;
     width: 100%;
-    height: 2039px;
+    height: 4000px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -132,7 +135,7 @@ button:active {
   .overlay2 {
     position: absolute;
     width: 100%;
-    height: 2209px;
+    height: 4000px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -408,7 +411,7 @@ margin-top: 17px;
     top: 100px;
     /* max-width: 400px; */
     width: 100%;
-    height: 2%;
+
     padding: 15px;
     /* position: relative; */
     font-family: Roboto;
@@ -1739,80 +1742,283 @@ height: 132px;
     margin-top: 20px;
 }
 
+.speech-bubble10 iframe {
+width: 560px;
+height: 315px;
+}
+
+.speech-bubble30 iframe {
+    width: 560px;
+    height: 315px;
+    }
 
 
 
 @media only screen and (max-width: 1000px) {
+.container {
+    width: 90%;
+}
+
+.overlay {
+    width: 104%;
+}
+
+.overlay2 {
+    width: 104%;
+}
+
+.overlay3 {
+    width: 104%;
+}
+
+.overlay4 {
+    width: 104%;
+}
+
+.overlay5 {
+    width: 104%;
+}
+
+.overlay6 {
+    width: 104%;
+}
+
+.overlay7 {
+    width: 104%;
+}
+
+.overlay8 {
+    width: 104%;
+}
+
+.overlay9 {
+    width: 104%;
+}
+
+.overlay10 {
+    width: 104%;
+}
+
+.speech-bubble10 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.speech-bubble30 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.speech-bubble2 {
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.speech-bubble3 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble4 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble5 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble6 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble7 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+    justify-content: center;
+}
+
+.speech-bubble8 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble10 {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble11 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble12 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble13 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble14 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble15 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble16 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble17 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble18 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble19 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble20 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble21 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble22 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble23 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble24 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble25 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble26 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble27 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble28 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble29 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble30 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble31 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
+
+.speech-bubble32 {
+    font-size: 15px;
+    line-height: 17px;
+    height: unset;
+}
 
 .speech-bubble {
-    width: 260px;
+    width: 70%;
     font-size: 15px;
     line-height: 18px;
-    height: 158px;
-
+    margin-left: 9%;
 }
-
-.container {
-    width: 80%;
-}
-
-
 
 .btn {
-    width: 175px;
+    width: 121px;
     font-size: 13px;
     line-height: 15px;
 }
 
 .new {
-    width: 175px;
+    width: 121px;
     font-size: 13px;
     line-height: 15px;
     margin-bottom: 30px;
 }
 
 .white {
-    width: 175px;
+    width: 121px;
     font-size: 13px;
     line-height: 15px;
 }
 
-
-.picture img {
-    width: 345px;
-    height: 173px;
-}
-
-.speech-bubble2 {
-    font-size: 15px;
-    line-height: 18px;
-}
-
-.speech-bubble3 {
-    font-size: 15px;
-    line-height: 18px;
-    height: unset;
-}
-
-.speech-bubble4 {
-    font-size: 15px;
-    line-height: 18px;
-    height: unset;
-    flex-direction: column;
-}
-
-
-
-.speech-bubble5 {
-    font-size: 15px;
-    line-height: 18px;
-    height: unset;
-}
-
-.speech-bubble6 {
-    font-size: 15px;
-    line-height: 18px;
-    height: unset;
+.first {
+    margin-left: 5%;
 }
 
 }
